@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  php:
+    build: .
+    image: reading-php-src
+    container_name: reading-php-src
+    volumes:
+      - ./src:/usr/local/src/php-src/src
+      - ./php.ini:/usr/local/lib/php.ini
+    tty: true
