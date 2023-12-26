@@ -1,0 +1,16 @@
+{
+  "name": "reading-php-src",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "service": "php",
+  "workspaceFolder": "/usr/local/src/php-src",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}
