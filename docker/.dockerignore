@@ -1,0 +1,4 @@
+.gitignore
+config.nice.example
+installer.example
+php.ini.example

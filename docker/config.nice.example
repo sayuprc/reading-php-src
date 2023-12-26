@@ -1,0 +1,13 @@
+#! /bin/sh
+#
+# Created by configure
+
+'./configure' \
+'--disable-all' \
+'--enable-debug' \
+'--with-pear' \
+'--enable-xml' \
+'--with-libxml' \
+'--with-openssl' \
+'--enable-opcache' \
+"$@"

@@ -1,0 +1,14 @@
+apt install -y \
+  autoconf \
+  bison \
+  curl \
+  gcc \
+  gdb \
+  git \
+  libssl-dev \
+  libxml2-dev \
+  make \
+  openssl \
+  pkg-config \
+  re2c \
+  wget
