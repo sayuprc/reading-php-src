@@ -1,0 +1,7 @@
+*
+!.dockerignore
+!.gitignore
+!Dockerfile
+!config.nice.example
+!installer.example
+!php.ini.example
